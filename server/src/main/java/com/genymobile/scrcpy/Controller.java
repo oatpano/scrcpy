@@ -140,8 +140,10 @@ public class Controller {
         int successCount = 0;
         for (char c : text.toCharArray()) {
             if (!injectChar(c)) {
-                Ln.w("Could not inject char u+" + String.format("%04x", (int) c));
+                Ln.w("Could2 not inject char u+" + String.format("%04x", (int) c));
                 continue;
+            } else {
+                Ln.w("Inject2 char u+" + String.format("%04x", (int) c));
             }
             successCount++;
         }

@@ -2,3 +2,9 @@ build/
 /dist/
 .idea/
 .gradle/
+
+x/
+
+.project
+
+.settings/
